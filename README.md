@@ -1,5 +1,6 @@
-Makefile.pdfTeX – build LaTeX projects using GNU/Make
-=====================================================
+Makefile.pdfTeX
+===============
+*build LaTeX projects using GNU/Make*
 
 This repo contains a pair of scripts to build TeX projects using
 GNU/Make and pdfTeX.  It provides a generic Makefile for LaTeX
@@ -14,7 +15,7 @@ To work correctly, the scripts require a POSIX-compatible shell
 but can probably be used with other TeX engines as well.
 
 
-*** Usage ***
+## Usage
 
 Normally, it should be sufficient to just copy the two files
 `Makefile.pdfTeX` and `texdeps.sh` somewhere in your project and
@@ -48,13 +49,13 @@ An example project and Makefile is contained in the `example/`
 directory.
 
 
-*** Why not just use `latexmk` or XYZ tool? ***
+## Why not just use `latexmk` or tool XYZ?
 
 There are many other ways to build TeX projects, some much more
-sophisticated than these simple scripts.  A non-exhaustive list is
-given in this [TeX StackExchange
+sophisticated than the simple scripts from this repo.  A non-exhaustive
+list is given in this [TeX StackExchange
 post](https://tex.stackexchange.com/questions/40738/how-to-properly-make-a-latex-project).
-Among these, `latexmk` is probably the best known, and it's already
+Among those, `latexmk` is probably the best known, and it's already
 included in many TeX distributions.  So why not use that instead?
 
 There is nothing wrong with `latexmk` or any of those other tools, and
@@ -68,4 +69,4 @@ on most Unix-like systems (a shell and GNU/Make).  So I decided to
 share them just in case others might also find them useful.
 
 ----
-(c) Sandro Stucki 2021 – see the `LICENSE` file for more info
+(c) Sandro Stucki 2021 – see the `LICENSE` file for details
