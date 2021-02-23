@@ -1,0 +1,26 @@
+\documentclass{article}
+
+% For including images.
+\usepackage{graphicx}
+
+\title{Makefile.pdfTeX -- Another example}
+
+\author{Sandro Stucki}
+
+\begin{document}
+
+\maketitle
+
+\section{A section in other.tex}
+
+% Include a file using \input
+\input{subdir/include2}
+
+\begin{figure}[tbh]
+  \centering
+  \includegraphics[height=1cm]{img/test}
+  \caption{This box was included as an image from test.png}
+  \label{fig:test-box}
+\end{figure}
+
+\end{document}

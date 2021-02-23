@@ -1,0 +1,29 @@
+\documentclass{article}
+
+% Include a local style file
+\usepackage{mypackage}
+
+% For hyperlinks.
+\usepackage{hyperref}
+
+% For author-year citations
+\usepackage{natbib}
+
+\title{Makefile.pdfTeX -- An example}
+
+\author{Sandro Stucki}
+
+\begin{document}
+
+\maketitle
+
+\section{A section in main.tex}
+
+% Include a file using \input
+\input{include1}
+
+%% Bibliography
+\bibliographystyle{plainnat}
+\bibliography{biblio}
+
+\end{document}
